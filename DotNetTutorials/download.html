@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'/>
+<title>Python Tutorials For Beginners and Professionals - Dot Net Tutorials</title>
+<meta name="description" content="In this Python Tutorials For Beginners and Professionals article series, we are going to cover all the basic and advanced concepts of Python"/>
+<link rel="canonical" href="https://dotnettutorials.net/course/python-tutorials/"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="Python Tutorials For Beginners and Professionals"/>
+<meta property="og:description" content="In this Python Tutorials For Beginners and Professionals article series, we are going to cover all the basic and advanced concepts of Python"/>
+<meta property="og:url" content="https://dotnettutorials.net/course/python-tutorials/"/>
+<meta property="og:site_name" content="Dot Net Tutorials"/>
+<meta property="article:publisher" content="https://www.facebook.com/tutorialsdotnet/"/>
+<meta property="article:modified_time" content="2021-04-10T09:23:31+00:00"/>
+<meta property="og:image" content="https://dotnettutorials.net/wp-content/uploads/2020/06/Python-Tutorials.png"/>
+<meta property="og:image:width" content="999"/>
+<meta property="og:image:height" content="592"/>
+<meta property="og:image:type" content="image/png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="@RoutPranaya"/>
+<meta name="twitter:label1" content="Est. reading time"/>
+<meta name="twitter:data1" content="7 minutes"/>
+<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://dotnettutorials.net/course/python-tutorials/","url":"https://dotnettutorials.net/course/python-tutorials/","name":"Python Tutorials For Beginners and Professionals - Dot Net Tutorials","isPartOf":{"@id":"https://dotnettutorials.net/#website"},"primaryImageOfPage":{"@id":"https://dotnettutorials.net/course/python-tutorials/#primaryimage"},"image":{"@id":"https://dotnettutorials.net/course/python-tutorials/#primaryimage"},"thumbnailUrl":"https://dotnettutorials.net/wp-content/uploads/2020/06/Python-Tutorials-For-Beginners-and-Professionals.png","datePublished":"2020-06-20T13:41:10+00:00","dateModified":"2021-04-10T09:23:31+00:00","description":"In this Python Tutorials For Beginners and Professionals article series, we are going to cover all the basic and advanced concepts of Python","breadcrumb":{"@id":"https://dotnettutorials.net/course/python-tutorials/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://dotnettutorials.net/course/python-tutorials/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://dotnettutorials.net/course/python-tutorials/#primaryimage","url":"https://dotnettutorials.net/wp-content/uploads/2020/06/Python-Tutorials-For-Beginners-and-Professionals.png","contentUrl":"https://dotnettutorials.net/wp-content/uploads/2020/06/Python-Tutorials-For-Beginners-and-Professionals.png","width":1032,"height":277,"caption":"Python Tutorials For Beginners and Professionals"},{"@type":"BreadcrumbList","@id":"https://dotnettutorials.net/course/python-tutorials/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://dotnettutorials.net/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://dotnettutorials.net/courses/"},{"@type":"ListItem","position":3,"name":"Python Tutorials For Beginners and Professionals"}]},{"@type":"WebSite","@id":"https://dotnettutorials.net/#website","url":"https://dotnettutorials.net/","name":"Dot Net Tutorials","description":"","publisher":{"@id":"https://dotnettutorials.net/#/schema/person/092d2d877405716353aa607e372bc216"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://dotnettutorials.net/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":["Person","Organization"],"@id":"https://dotnettutorials.net/#/schema/person/092d2d877405716353aa607e372bc216","name":"Pranaya","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://dotnettutorials.net/#/schema/person/image/","url":"https://dotnettutorials.net/wp-content/uploads/2019/09/cropped-dotnettutorials.png","contentUrl":"https://dotnettutorials.net/wp-content/uploads/2019/09/cropped-dotnettutorials.png","width":180,"height":60,"caption":"Pranaya"},"logo":{"@id":"https://dotnettutorials.net/#/schema/person/image/"},"sameAs":["https://www.facebook.com/tutorialsdotnet/","https://www.linkedin.com/in/pranaya-rout-06654520b/"]}]}</script>
+<link rel="alternate" type="application/rss+xml" title="Dot Net Tutorials &raquo; Feed" href="https://dotnettutorials.net/feed/"/>
+<link rel="alternate" type="application/rss+xml" title="Dot Net Tutorials &raquo; Comments Feed" href="https://dotnettutorials.net/comments/feed/"/>
+<link rel="alternate" type="application/rss+xml" title="Dot Net Tutorials &raquo; Python Tutorials For Beginners and Professionals Comments Feed" href="https://dotnettutorials.net/course/python-tutorials/feed/"/>
+<style id='global-styles-inline-css'>body{--wp--preset--color--black:#000000;--wp--preset--color--cyan-bluish-gray:#abb8c3;--wp--preset--color--white:#ffffff;--wp--preset--color--pale-pink:#f78da7;--wp--preset--color--vivid-red:#cf2e2e;--wp--preset--color--luminous-vivid-orange:#ff6900;--wp--preset--color--luminous-vivid-amber:#fcb900;--wp--preset--color--light-green-cyan:#7bdcb5;--wp--preset--color--vivid-green-cyan:#00d084;--wp--preset--color--pale-cyan-blue:#8ed1fc;--wp--preset--color--vivid-cyan-blue:#0693e3;--wp--preset--color--vivid-purple:#9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple:linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan:linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange:linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red:linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray:linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum:linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple:linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux:linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk:linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean:linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass:linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight:linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale:url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale:url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow:url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red:url('#wp-duotone-blue-red');--wp--preset--duotone--midnight:url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow:url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green:url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange:url('#wp-duotone-blue-orange');--wp--preset--font-size--small:13px;--wp--preset--font-size--medium:20px;--wp--preset--font-size--large:36px;--wp--preset--font-size--x-large:42px;--wp--preset--spacing--20:0.44rem;--wp--preset--spacing--30:0.67rem;--wp--preset--spacing--40:1rem;--wp--preset--spacing--50:1.5rem;--wp--preset--spacing--60:2.25rem;--wp--preset--spacing--70:3.38rem;--wp--preset--spacing--80:5.06rem;--wp--preset--shadow--natural:6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep:12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp:6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined:6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp:6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap:0.5em;}body .is-layout-flow > .alignleft{float:left;margin-inline-start:0;margin-inline-end:2em;}body .is-layout-flow > .alignright{float:right;margin-inline-start:2em;margin-inline-end:0;}body .is-layout-flow > .aligncenter{margin-left:auto !important;margin-right:auto !important;}body .is-layout-constrained > .alignleft{float:left;margin-inline-start:0;margin-inline-end:2em;}body .is-layout-constrained > .alignright{float:right;margin-inline-start:2em;margin-inline-end:0;}body .is-layout-constrained > .aligncenter{margin-left:auto !important;margin-right:auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width:var(--wp--style--global--content-size);margin-left:auto !important;margin-right:auto !important;}body .is-layout-constrained > .alignwide{max-width:var(--wp--style--global--wide-size);}body .is-layout-flex{display:flex;}body .is-layout-flex{flex-wrap:wrap;align-items:center;}body .is-layout-flex > *{margin:0;}:where(.wp-block-columns.is-layout-flex){gap:2em;}.has-black-color{color:var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color:var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color:var(--wp--preset--color--white) !important;}.has-pale-pink-color{color:var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color:var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color:var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color:var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color:var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color:var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color:var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color:var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color:var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color:var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color:var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color:var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color:var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color:var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color:var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color:var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color:var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color:var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color:var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color:var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color:var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color:var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color:var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color:var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color:var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color:var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color:var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color:var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color:var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color:var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color:var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color:var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color:var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background:var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background:var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background:var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background:var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background:var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background:var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background:var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background:var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background:var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background:var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background:var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background:var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size:var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size:var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size:var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size:var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color:inherit;}:where(.wp-block-columns.is-layout-flex){gap:2em;}
+.wp-block-pullquote{font-size:1.5em;line-height:1.6;}</style>
+<link rel="stylesheet" type="text/css" href="//dotnettutorials.net/wp-content/cache/wpfc-minified/7l02pwod/bntal.css" media="all"/>
+<link rel="https://api.w.org/" href="https://dotnettutorials.net/wp-json/"/><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://dotnettutorials.net/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://dotnettutorials.net/wp-includes/wlwmanifest.xml"/>
+<meta name="generator" content="WordPress 6.2"/>
+<link rel='shortlink' href='https://dotnettutorials.net/?p=7811'/>
+<link rel="alternate" type="application/json+oembed" href="https://dotnettutorials.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdotnettutorials.net%2Fcourse%2Fpython-tutorials%2F"/>
+<link rel="alternate" type="text/xml+oembed" href="https://dotnettutorials.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdotnettutorials.net%2Fcourse%2Fpython-tutorials%2F&#038;format=xml"/>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5996718494925719" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120897824-2"></script>
+<script>window.dataLayer=window.dataLayer||[];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-120897824-2');</script>
+<link rel="pingback" href="https://dotnettutorials.net/xmlrpc.php">
+<link rel="icon" href="https://dotnettutorials.net/wp-content/uploads/2019/09/cropped-dotnettutorials-siteicon-32x32.png" sizes="32x32"/>
+<link rel="icon" href="https://dotnettutorials.net/wp-content/uploads/2019/09/cropped-dotnettutorials-siteicon-192x192.png" sizes="192x192"/>
+<link rel="apple-touch-icon" href="https://dotnettutorials.net/wp-content/uploads/2019/09/cropped-dotnettutorials-siteicon-180x180.png"/>
+<meta name="msapplication-TileImage" content="https://dotnettutorials.net/wp-content/uploads/2019/09/cropped-dotnettutorials-siteicon-270x270.png"/>
+<style id="wp-custom-css">.main-header-menu a{font-weight:bold;color:#2a6f7e;}</style>
+<script data-wpfc-render="false">var Wpfcll={s:[],osl:0,scroll:false,i:function(){Wpfcll.ss();window.addEventListener('load',function(){window.addEventListener("DOMSubtreeModified",function(e){Wpfcll.osl=Wpfcll.s.length;Wpfcll.ss();if(Wpfcll.s.length > Wpfcll.osl){Wpfcll.ls(false);}},false);Wpfcll.ls(true);});window.addEventListener('scroll',function(){Wpfcll.scroll=true;Wpfcll.ls(false);});window.addEventListener('resize',function(){Wpfcll.scroll=true;Wpfcll.ls(false);});window.addEventListener('click',function(){Wpfcll.scroll=true;Wpfcll.ls(false);});},c:function(e,pageload){var w=document.documentElement.clientHeight || body.clientHeight;var n=0;if(pageload){n=0;}else{n=(w > 800) ? 800:200;n=Wpfcll.scroll ? 800:n;}var er=e.getBoundingClientRect();var t=0;var p=e.parentNode ? e.parentNode:false;if(typeof p.getBoundingClientRect=="undefined"){var pr=false;}else{var pr=p.getBoundingClientRect();}if(er.x==0 && er.y==0){for(var i=0;i < 10;i++){if(p){if(pr.x==0 && pr.y==0){if(p.parentNode){p=p.parentNode;}if(typeof p.getBoundingClientRect=="undefined"){pr=false;}else{pr=p.getBoundingClientRect();}}else{t=pr.top;break;}}};}else{t=er.top;}if(w - t+n > 0){return true;}return false;},r:function(e,pageload){var s=this;var oc,ot;try{oc=e.getAttribute("data-wpfc-original-src");ot=e.getAttribute("data-wpfc-original-srcset");originalsizes=e.getAttribute("data-wpfc-original-sizes");if(s.c(e,pageload)){if(oc || ot){if(e.tagName=="DIV" || e.tagName=="A" || e.tagName=="SPAN"){e.style.backgroundImage="url("+oc+")";e.removeAttribute("data-wpfc-original-src");e.removeAttribute("data-wpfc-original-srcset");e.removeAttribute("onload");}else{if(oc){e.setAttribute('src',oc);}if(ot){e.setAttribute('srcset',ot);}if(originalsizes){e.setAttribute('sizes',originalsizes);}if(e.getAttribute("alt") && e.getAttribute("alt")=="blank"){e.removeAttribute("alt");}e.removeAttribute("data-wpfc-original-src");e.removeAttribute("data-wpfc-original-srcset");e.removeAttribute("data-wpfc-original-sizes");e.removeAttribute("onload");if(e.tagName=="IFRAME"){var y="https://www.youtube.com/embed/";if(navigator.userAgent.match(/\sEdge?\/\d/i)){e.setAttribute('src',e.getAttribute("src").replace(/.+\/templates\/youtube\.html\#/,y));}e.onload=function(){if(typeof window.jQuery !="undefined"){if(jQuery.fn.fitVids){jQuery(e).parent().fitVids({customSelector:"iframe[src]"});}}var s=e.getAttribute("src").match(/templates\/youtube\.html\#(.+)/);if(s){try{var i=e.contentDocument || e.contentWindow;if(i.location.href=="about:blank"){e.setAttribute('src',y+s[1]);}}catch(err){e.setAttribute('src',y+s[1]);}}}}}}else{if(e.tagName=="NOSCRIPT"){if(jQuery(e).attr("data-type")=="wpfc"){e.removeAttribute("data-type");jQuery(e).after(jQuery(e).text());}}}}}catch(error){console.log(error);console.log("==>",e);}},ss:function(){var i=Array.prototype.slice.call(document.getElementsByTagName("img"));var f=Array.prototype.slice.call(document.getElementsByTagName("iframe"));var d=Array.prototype.slice.call(document.getElementsByTagName("div"));var a=Array.prototype.slice.call(document.getElementsByTagName("a"));var s=Array.prototype.slice.call(document.getElementsByTagName("span"));var n=Array.prototype.slice.call(document.getElementsByTagName("noscript"));this.s=i.concat(f).concat(d).concat(a).concat(s).concat(n);},ls:function(pageload){var s=this;[].forEach.call(s.s,function(e,index){s.r(e,pageload);});}};document.addEventListener('DOMContentLoaded',function(){wpfci();});function wpfci(){Wpfcll.i();}</script>
+</head>
+<body itemtype='https://schema.org/Blog' itemscope='itemscope' class="course-template-default single single-course postid-7811 wp-custom-logo ast-desktop ast-plain-container ast-left-sidebar astra-2.4.3 ast-header-custom-item-inside ast-blog-single-style-1 ast-custom-post-type ast-single-post ast-inherit-site-logo-transparent ast-normal-title-enabled">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+<header class="site-header header-main-layout-1 ast-primary-menu-enabled ast-menu-toggle-icon ast-mobile-header-inline" id="masthead" itemtype="https://schema.org/WPHeader" itemscope="itemscope">
+<div class="main-header-bar-wrap">
+<div class="main-header-bar">
+<div class="ast-container">
+<div class="ast-flex main-header-container">
+<div class="site-branding">
+<div class="ast-site-identity" itemtype="https://schema.org/Organization" itemscope="itemscope"> <span class="site-logo-img"><a href="https://dotnettutorials.net/" class="custom-logo-link" rel="home"><img width="180" height="60" src="https://dotnettutorials.net/wp-content/uploads/2019/09/cropped-dotnettutorials.png" class="custom-logo" alt="Dot Net Tutorials" decoding="async"/></a></span></div></div><div class="ast-mobile-menu-buttons">
+<div class="ast-button-wrap"> <button type="button" class="menu-toggle main-header-menu-toggle ast-mobile-menu-buttons-fill " aria-controls='primary-menu' aria-expanded='false'> <span class="screen-reader-text">Main Menu</span> <span class="menu-toggle-icon"></span> </button></div></div><div class="ast-main-header-bar-alignment"><div class="main-header-bar-navigation"><nav class="ast-flex-grow-1 navigation-accessibility" id="site-navigation" aria-label="Site Navigation" itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope"><div class="main-navigation"><ul id="primary-menu" class="main-header-menu ast-nav-menu ast-flex ast-justify-content-flex-end submenu-with-border"><li id="menu-item-999" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-999"><a href="https://dotnettutorials.net/course/csharp-dot-net-tutorials/">C#</a></li> <li id="menu-item-60" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-60"><a href="https://dotnettutorials.net/course/asp-dot-net-mvc/">MVC</a></li> <li id="menu-item-804" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-804"><a href="https://dotnettutorials.net/course/asp-net-web-api/">Web API</a></li> <li id="menu-item-138" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138"><a href="https://dotnettutorials.net/course/design-patterns-in-csharp/">Design Patterns</a></li> <li id="menu-item-2949" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2949"><a href="#">.NET Core</a><button class="ast-menu-toggle" aria-expanded="false"><span class="screen-reader-text">Menu Toggle</span></button> <ul class="sub-menu"> <li id="menu-item-11530" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11530"><a href="https://dotnettutorials.net/course/asp-net-core-tutorials/">ASP .NET Core Basic Tutorials</a></li> <li id="menu-item-11531" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11531"><a href="https://dotnettutorials.net/lesson/introduction-asp-net-core-mvc/">ASP.NET Core MVC Tutorials</a></li> <li id="menu-item-11533" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11533"><a href="https://dotnettutorials.net/lesson/entity-framework-core/">Entity Framework Core Tutorials</a></li> <li id="menu-item-11532" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11532"><a href="https://dotnettutorials.net/course/blazor-tuturial/">ASP.NET Core Blazor Tutorial</a></li> <li id="menu-item-14783" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14783"><a href="https://dotnettutorials.net/course/asp-net-core-web-api-tutorials/">ASP.NET Core Web API Tutorials</a></li> </ul> </li> <li id="menu-item-4231" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4231"><a href="#">Dotnet</a><button class="ast-menu-toggle" aria-expanded="false"><span class="screen-reader-text">Menu Toggle</span></button> <ul class="sub-menu"> <li id="menu-item-3578" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3578"><a href="https://dotnettutorials.net/course/linq/">LINQ</a></li> <li id="menu-item-6755" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6755"><a href="https://dotnettutorials.net/course/ado-net-tutorial-for-beginners-and-professionals/">ADO.NET</a></li> <li id="menu-item-3180" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3180"><a href="https://dotnettutorials.net/course/dot-net-interview-questions/">.NET Interviews Questions and Answersd</a></li> <li id="menu-item-4226" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4226"><a href="https://dotnettutorials.net/course/entity-framework/">Entity Framework</a></li> <li id="menu-item-112" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-112"><a href="https://dotnettutorials.net/course/solid-design-principles/">SOLID Principles</a></li> <li id="menu-item-4228" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4228"><a href="https://dotnettutorials.net/course/csharp-dot-net-programs/">C#.NET Logical Programs</a></li> </ul> </li> <li id="menu-item-33856" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-33856"><a href="#">Data Bases</a><button class="ast-menu-toggle" aria-expanded="false"><span class="screen-reader-text">Menu Toggle</span></button> <ul class="sub-menu"> <li id="menu-item-350" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-350"><a href="https://dotnettutorials.net/course/sql-server/">SQL Server Tutorials</a></li> <li id="menu-item-14784" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14784"><a href="https://dotnettutorials.net/course/mysql-tutorials-for-beginners-and-professionals/">MySQL Tutorials</a></li> <li id="menu-item-14785" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14785"><a href="https://dotnettutorials.net/course/oracle-tutorials/">Oracle Tutorials</a></li> <li id="menu-item-33857" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33857"><a href="https://dotnettutorials.net/course/mongodb-tutorials/">MongoDB Tutorials</a></li> <li id="menu-item-33858" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33858"><a href="https://dotnettutorials.net/course/oracle-dba-tutorials/">Oracle DBA Tutorials</a></li> <li id="menu-item-33859" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33859"><a href="https://dotnettutorials.net/course/sql-server-dba-tutorials/">SQL Server DBA Tutorials</a></li> </ul> </li> <li id="menu-item-11524" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11524"><a href="#">Java</a><button class="ast-menu-toggle" aria-expanded="false"><span class="screen-reader-text">Menu Toggle</span></button> <ul class="sub-menu"> <li id="menu-item-8599" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8599"><a href="https://dotnettutorials.net/course/java-tutorials-for-beginners-and-professionals/">Core Java Tutorials</a></li> <li id="menu-item-11527" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11527"><a href="https://dotnettutorials.net/lesson/jdbc-in-java/">JDBC Tutorials</a></li> <li id="menu-item-11528" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11528"><a href="https://dotnettutorials.net/course/java-servlets-tutorials/">Java Servlets Tutorials</a></li> <li id="menu-item-12832" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12832"><a href="https://dotnettutorials.net/course/jsp-tutorials/">JSP Tutorials</a></li> <li id="menu-item-16631" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16631"><a href="https://dotnettutorials.net/course/spring-framework-tutorials/">Spring Framework Tutorials</a></li> <li id="menu-item-11529" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11529"><a href="https://dotnettutorials.net/course/java-struts-tutorials/">Java Struts Tutorials</a></li> </ul> </li> <li id="menu-item-11525" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11525"><a href="#">C/C++/DSA</a><button class="ast-menu-toggle" aria-expanded="false"><span class="screen-reader-text">Menu Toggle</span></button> <ul class="sub-menu"> <li id="menu-item-8598" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8598"><a href="https://dotnettutorials.net/course/c-tutorials/">C Tutorials</a></li> <li id="menu-item-11526" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11526"><a href="https://dotnettutorials.net/course/cpp-tutorials-for-beginners-and-professionals/">C++ Tutorials</a></li> <li id="menu-item-8600" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8600"><a href="https://dotnettutorials.net/course/data-structures-and-algorithms-for-beginners-and-professionals/">Data Structures and Algorithms Tutorials</a></li> <li id="menu-item-24052" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24052"><a href="https://dotnettutorials.net/online-training/">Our Online Training Program</a></li> <li id="menu-item-14786" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14786"><a href="https://play.google.com/store/apps/details?id=dotnettutorials.net&#038;pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">Download Our App on Google Play</a></li> </ul> </li> <li id="menu-item-7944" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-7944"><a href="#">More&#8230;</a><button class="ast-menu-toggle" aria-expanded="false"><span class="screen-reader-text">Menu Toggle</span></button> <ul class="sub-menu"> <li id="menu-item-1700" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1700"><a href="https://dotnettutorials.net/course/angular-tutorial/">Angular Tutorials</a></li> <li id="menu-item-7943" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-7943"><a href="https://dotnettutorials.net/course/python-tutorials/" aria-current="page">Python Tutorials</a></li> <li id="menu-item-5140" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5140"><a href="https://dotnettutorials.net/course/javascript-tutorial-for-beginners-and-professionals/">JavaScript Tutorial</a></li> <li id="menu-item-16630" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16630"><a href="https://dotnettutorials.net/course/jquery-tutorials/">jQuery Tutorials</a></li> <li id="menu-item-16629" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16629"><a href="https://dotnettutorials.net/course/data-science-tutorials/">Data Science Tutorials</a></li> <li id="menu-item-5092" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5092"><a href="https://dotnettutorials.net/course/trading-with-smart-money/">Trading with Smart Money</a></li> <li id="menu-item-9368" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9368"><a href="https://dotnettutorials.net/course/cloud-computing/">Cloud Computing Tutorials</a></li> <li id="menu-item-20956" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20956"><a href="https://dotnettutorials.net/course/html-tutorials/">HTML Tutorials</a></li> <li id="menu-item-27131" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27131"><a href="https://dotnettutorials.net/course/css-tutorials-for-beginners-and-professionals/">CSS Tutorials</a></li> <li id="menu-item-36817" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36817"><a href="https://dotnettutorials.net/buy-me-a-coffee/">Buy Me a Coffee</a></li> </ul> </li> </ul></div></nav></div></div></div></div></div></div></header>
+<div id="content" class="site-content">
+<div class="ast-container">
+<div class="widget-area secondary" id="secondary" role="complementary" itemtype="https://schema.org/WPSideBar" itemscope="itemscope">
+<div class="sidebar-main">
+<aside id="course_syllabus-2" class="widget widget_course_syllabus"><div class="llms-widget-syllabus">
+<ul class="llms-course-outline">
+<li class="llms-section">
+<div class="section-header"> <span class="section-title">Python &#8211; Basics</span></div><ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/introduction-to-python/"> Introduction to Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/python-coding-instructions/"> Python Coding Instructions </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/naming-conventions-in-python/"> Naming Conventions in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/variables-in-python/"> Variables in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/data-types-in-python/"> Data Types in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/operators-in-python/"> Operators in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/input-and-output-in-python/"> Input and Output in Python  </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/control-flow-statements-in-python/"> Control Flow Statements in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/looping-statements-in-python/"> Looping Statements in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/strings-in-python/"> Strings in Python </a> </span> </li>
+</ul>
+</li>
+<li class="llms-section">
+<div class="section-header"> <span class="section-title">Python &#8211; Functions, Modules &#038; Packages</span></div><ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/functions-in-python/"> Functions in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/types-of-function-arguments-in-python/"> Types of Function Arguments in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/types-of-variables-in-python/"> Types of Variables in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/recursive-and-lambda-functions-in-python/"> Recursive and Lambda Functions in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/decorators-and-generators-in-python/"> Decorators and Generators in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/modules-and-packages-in-python/"> Modules and Packages in Python </a> </span> </li>
+</ul>
+</li>
+<li class="llms-section">
+<div class="section-header"> <span class="section-title">Python &#8211; Data Structure</span></div><ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/lists-in-python/"> Lists in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/tuples-in-python/"> Tuples in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/sets-in-python/"> Sets in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/dictionary-in-python/"> Dictionary in Python </a> </span> </li>
+</ul>
+</li>
+<li class="llms-section">
+<div class="section-header"> <span class="section-title">Python &#8211;  Object Oriented Programming</span></div><ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/oops-in-python/"> OOPs in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/constructors-in-python/"> Constructors in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/class-variables-in-python/"> Types of Variables in a Class in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/class-methods-in-python/"> Types of Methods in a Class in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/inheritance-in-python/"> Inheritance in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/method-resolution-order-python/"> Method Resolution Order (MRO) in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/super-function-in-python/"> Super Function in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/polymorphism-in-python/"> Polymorphism in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/abstract-classes-in-python/"> Abstract classes in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/interfaces-in-python/"> Interfaces in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/gui-programming-with-python-tkinter/"> GUI Programming with Python Tkinter </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/data-governance-key-tosuccessful-data-science/"> Data Governance: Key to Successful Data Science </a> </span> </li>
+</ul>
+</li>
+<li class="llms-section">
+<div class="section-header"> <span class="section-title">Python &#8211; Exception Handling &#038; Files</span></div><ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/exception-handling-in-python/"> Exception Handling in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/finally-block-in-python/"> Finally Block in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/nested-try-except-finally-blocks-in-python/"> Nested try-except-finally blocks in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/custom-exception-python/"> Custom Exception in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/files-in-python/"> Files in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/working-with-binary-files-in-python/"> Working with binary files in Python </a> </span> </li>
+</ul>
+</li>
+<li class="llms-section">
+<div class="section-header"> <span class="section-title">Regular Expressions &#038; Logging</span></div><ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/regular-expressions-in-python/"> Regular Expressions in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/regular-expression-methods-in-python/"> Regular Expression Methods in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/logging-module-in-python/"> Logging Module in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/customized-logging-in-python/"> Customized Logging in Python </a> </span> </li>
+</ul>
+</li>
+<li class="llms-section">
+<div class="section-header"> <span class="section-title">Python &#8211; Multithreading </span></div><ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/multithreading-in-python/"> Multithreading in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/methods-of-thread-class-in-python/"> Methods of Thread class in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/daemon-threads-in-python/"> Daemon Threads in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/synchronization-in-python/"> Synchronization in Python </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/inter-thread-communication-in-python/"> Inter Thread communication in Python </a> </span> </li>
+</ul>
+</li>
+<li class="llms-section">
+<div class="section-header"> <span class="section-title">Python &#8211; Database Connectivity</span></div><ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/database-connectivity-in-python/"> Database Connectivity in Python </a> </span> </li>
+</ul>
+</li>
+<li class="llms-section">
+<div class="section-header"> <span class="section-title">Popular Python Books</span></div><ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/most-recommended-python-books/"> Most Recommended Python Books </a> </span> </li>
+</ul>
+<ul class="llms-lesson">
+<li> <span class="llms-lesson-complete"> <i class="fa fa-check-circle"></i> </span> <span class="lesson-title"> <a href="https://dotnettutorials.net/lesson/most-recommended-data-structure-and-algorithms-books-using-python/"> Most Recommended Data Structure and Algorithms Books using Python </a> </span> </li>
+</ul>
+</li>
+</ul></div></aside><aside id="custom_html-2" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget">
+<div id="ezoic-pub-ad-placeholder-129"></div></div></aside></div></div><div id="primary" class="content-area primary">
+<main id="main" class="site-main">
+<div class='code-block code-block-1' style='margin: 8px auto 8px 0; text-align: left; display: block; clear: both;'>
+<div id="ezoic-pub-ad-placeholder-101"></div></div><article class="post-7811 course type-course status-publish has-post-thumbnail hentry ast-article-single not-enrolled is-complete" id="post-7811" itemtype="https://schema.org/CreativeWork" itemscope="itemscope">
+<div class="ast-post-format- single-layout-1">
+<header class="entry-header ast-no-meta">
+<div class="post-thumb-img-content post-thumb"><img width="1024" height="275" src="https://dotnettutorials.net/wp-content/uploads/2020/06/Python-Tutorials-For-Beginners-and-Professionals-1024x275.png" class="attachment-large size-large wp-post-image" alt="Python Tutorials For Beginners and Professionals" decoding="async" loading="lazy" itemprop="image" srcset="https://dotnettutorials.net/wp-content/uploads/2020/06/Python-Tutorials-For-Beginners-and-Professionals-1024x275.png 1024w, https://dotnettutorials.net/wp-content/uploads/2020/06/Python-Tutorials-For-Beginners-and-Professionals-300x81.png 300w, https://dotnettutorials.net/wp-content/uploads/2020/06/Python-Tutorials-For-Beginners-and-Professionals-768x206.png 768w, https://dotnettutorials.net/wp-content/uploads/2020/06/Python-Tutorials-For-Beginners-and-Professionals.png 1032w" sizes="(max-width: 1024px) 100vw, 1024px"/></div><div class="ast-single-post-order"> <h1 class="entry-title" itemprop="headline">Python Tutorials For Beginners and Professionals</h1></div></header>
+<div class="entry-content clear" itemprop="text">
+<h2 style="text-align: justify;"><strong><span style="font-family: arial, helvetica, sans-serif; color: #000000; font-size: 18pt;">Python Tutorials <span style="font-family: arial, helvetica, sans-serif; color: #000000;">For Beginners and Professionals</span></span></strong></h2>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">In this <strong>Python Tutorials For Beginners and Professionals</strong> article series, we covered all the basic and advanced concepts of Python using simple as well as real-time examples. Each concept will explain using simple as well as real-time examples.</span></p>
+<h5 style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;"><strong>This Python Tutorial is For whom?</strong></span></h5>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">This Python Tutorial is designed for students, beginners as well as professional developers who want to learn Python step by step from the very basic to the advanced concept using real-time examples. These tutorials provide a hands-on approach to the subject with step-by-step program examples that will assist you to learn and put the acquired knowledge into practice.</span></p><div class='code-block code-block-2' style='margin: 8px auto 8px 0; text-align: left; display: block; clear: both;'>
+<div id="ezoic-pub-ad-placeholder-105"></div></div><h5 style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;"><strong>Definition of Python:</strong></span></h5>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">Python is a general-purpose, interpreted, high-level programming language, a Wikipedia definition. In clear terms, Python</span></p>
+<ol style="text-align: justify;">
+<li><span style="font-family: arial, helvetica, sans-serif; color: #000000;"><strong>High-level language –</strong> It is a human-readable language which easily understandable and easy to debug</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; color: #000000;"><strong>Interpreted as well as compiled –</strong> Python is basically called an interpreted language, but can also be called a compiled interpreted language. In Python, first, all the source code is at once converted to byte code which is the action of the compiler, and then the byte code is executed by the compiler.</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; color: #000000;">Python is also called a scripting language.</span></li>
+</ol>
+<h5 style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;"><strong>Why the name Python?</strong></span></h5>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">There was a TV show by the name Monty Python’s Flying Circus which was a very much popular fun show in the 1970s. While creating Python, Guido also used to read this show’s published scripts. Guido needed a short and a different name for this language, hence he named it “Python”.</span></p>
+<h5 style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;"><strong>Python Versions</strong></span></h5>
+<ol style="text-align: justify;">
+<li><span style="font-family: arial, helvetica, sans-serif; color: #000000;">Python 1.0V introduced in Jan 1994</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; color: #000000;">Python 2.0V introduced in October 2000</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; color: #000000;">Python 3.0V introduced in December 2008.</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; color: #000000;">The current version is 3.8</span></li>
+</ol>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;"><strong>Note:</strong> Python 3 won’t provide backward compatibility to Python2 i.e. there is no guarantee that Python2 programs will run in Python3.</span></p><div class='code-block code-block-3' style='margin: 8px auto 8px 0; text-align: left; display: block; clear: both;'>
+<div id="ezoic-pub-ad-placeholder-106"></div></div><h5 style="text-align: justify;"><strong><span style="font-family: arial, helvetica, sans-serif; color: #000000;">What you will learn from these Python Tutorials?</span></strong></h5>
+<p><span style="font-family: arial, helvetica, sans-serif;">You will learn the following in this Python Tutorials.</span></p>
+<h6 style="text-align: justify;"><a href="https://dotnettutorials.net/lesson/introduction-to-python/"><strong><span style="font-family: arial, helvetica, sans-serif; color: #000000;"><span style="color: #000080;"><span style="color: #0000ff;">CHAPTER 1: Introduction to Python</span></span></span></strong></a></h6>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">  &#8211; What is python?</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">  &#8211; Why the name Python?</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">  &#8211;  History</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">  &#8211; Versions</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">  &#8211; Why python?</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">  &#8211; Interpreter</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">  &#8211; Keywords</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">  &#8211; Flavors</span></p>
+<h6 style="text-align: justify;"><a href="https://dotnettutorials.net/lesson/python-coding-instructions/"><span style="color: #0000ff;"><strong><span style="font-family: arial, helvetica, sans-serif;">CHAPTER 2: Coding Instructions</span></strong></span></a></h6>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Installation procedure</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Different ways to write a python program</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Execution steps and process</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Understanding a simple program</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Program execution flow</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Python Virtual Machine</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Examples</span></p><div class='code-block code-block-4' style='margin: 8px auto 8px 0; text-align: left; display: block; clear: both;'>
+<div id="ezoic-pub-ad-placeholder-109"></div></div><h6 style="text-align: justify;"><a href="https://dotnettutorials.net/lesson/naming-conventions-in-python/"><span style="color: #0000ff;"><strong><span style="font-family: arial, helvetica, sans-serif;">CHAPTER 3: Naming conventions</span></strong></span></a></h6>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Why naming conventions</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Identifiers and rules</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Validating identifier names with examples</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Identifiers in a table</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Smart suggestions while writing identifiers</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Indentation and Comments</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Programs</span></p>
+<h6 style="text-align: justify;"><a href="https://dotnettutorials.net/lesson/variables-in-python/"><span style="color: #0000ff;"><strong><span style="font-family: arial, helvetica, sans-serif;">CHAPTER 4: Variables</span></strong></span></a></h6>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; What is a variable?</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Properties of variable</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Creating variable</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Invalid cases for variables</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Multiple variables in n single line</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Single value for multiple</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Variable re-initialization</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Programs</span></p>
+<h6 style="text-align: justify;"><a href="https://dotnettutorials.net/lesson/data-types-in-python/"><span style="color: #0000ff;"><strong><span style="font-family: arial, helvetica, sans-serif;">CHAPTER 5: Datatypes</span></strong></span></a></h6>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; What is the data type?</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Different types of data types</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Built-in data types</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Sequences in Python</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Accessing range values</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; User-defined data types</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Converting from one data type into another data type.</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Programs</span></p><div class='code-block code-block-5' style='margin: 8px auto 8px 0; text-align: left; display: block; clear: both;'>
+<div id="ezoic-pub-ad-placeholder-110"></div></div><h6 style="text-align: justify;"><a href="https://dotnettutorials.net/lesson/operators-in-python/"><span style="color: #0000ff;"><strong><span style="font-family: arial, helvetica, sans-serif;">CHAPTER 6: Operators</span></strong></span></a></h6>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; What is an operator?</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Different type of operators</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Arithmetic Operators</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Assignment operator</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Unary minus operator</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Relational operators</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Logical operators</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Membership operators</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Identity operators</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Programs</span></p>
+<h6 style="text-align: justify;"><span style="color: #0000ff;"><a style="color: #0000ff;" href="https://dotnettutorials.net/lesson/input-and-output-in-python/"><strong><span style="font-family: arial, helvetica, sans-serif;">CHAPTER 7: Input and Output</span></strong></a></span></h6>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Why should we learn about input and output?</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Input and output</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Convert from String to type into other types</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; eval() function</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Command-line arguments</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; IndexError</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; len() function</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Programs</span></p>
+<h6 style="text-align: justify;"><a href="https://dotnettutorials.net/lesson/control-flow-statements-in-python/"><strong><span style="font-family: arial, helvetica, sans-serif; color: #000000;"><span style="color: #0000ff;">CHAPTER 8: Flow Control</span></span></strong></a></h6>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Why should we learn about flow control?</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Flow control</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Sequential flow</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Conditional flow</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Looping flow</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Sequential statements</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Conditional or Decision-making statements</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Where loops with else block flow is helpful?</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Break statement</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Continue statement</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Pass statement</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Return statement</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Programs</span></p><div class='code-block code-block-6' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+<div id="ezoic-pub-ad-placeholder-122"></div></div><h6 style="text-align: justify;"><span style="color: #0000ff;"><a style="color: #0000ff;" href="https://dotnettutorials.net/lesson/strings-in-python/"><strong><span style="font-family: arial, helvetica, sans-serif;">CHAPTER 9: Strings</span></strong></a></span></h6>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; What is a string?</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Defining a String</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Multi-line string objects</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Empty string</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Ways to access a string</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Slicing</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Immutability</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Operations on Strings</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Membership operators</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Comparing strings</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Some predefined methods with strings</span></p>
+<h6 style="text-align: justify;"><a href="https://dotnettutorials.net/lesson/functions-in-python/"><span style="color: #0000ff;"><strong><span style="font-family: arial, helvetica, sans-serif;">CHAPTER 10: Function</span></strong></span></a></h6>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Use of functions</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; What is a Function?</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Advantage of function</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Types of function</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Pre-defined or built-in functions</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Function related terminology</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Defining a function</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Calling a function</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Return keyword in python</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Returning multiple values from a function</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Functions are first-class objects</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Arguments types</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Types of variables</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; The global keyword</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Anonymous functions or Lambdas and advantages</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Use Cases for lambda functions</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Decorators and related concepts</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Generators</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Programs</span></p>
+<h6 style="text-align: justify;"><a href="https://dotnettutorials.net/lesson/modules-and-packages-in-python/"><strong><span style="font-family: arial, helvetica, sans-serif; color: #000000;"><span style="color: #0000ff;">CHAPTER 11: Modules and Packages</span></span></strong></a></h6>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; What is a module?</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Renaming or aliasing a module</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; dir() function</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Programs</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; What is a package?</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Advantage</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Programs</span></p><div class='code-block code-block-7' style='margin: 8px auto 8px 0; text-align: left; display: block; clear: both;'>
+<div id="ezoic-pub-ad-placeholder-127"></div></div><h6 style="text-align: justify;"><a href="https://dotnettutorials.net/lesson/lists-in-python/"><span style="color: #0000ff;"><strong><span style="font-family: arial, helvetica, sans-serif;">CHAPTER 12: Lists</span></strong></span></a></h6>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Python Data structures</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Sequence of elements</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Introduction</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Creating list</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Difference between list() function and list class</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Mutability</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Accessing elements in the list</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Important functions and methods in the list</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Difference between append and insert</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Difference between remove() and pop() methods</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Ordering elements of List:</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Aliasing and Cloning of list objects</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Mathematical + and * operators</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Comparison of lists</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Membership operators</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Nested Lists</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; List comprehensions</span></p>
+<h6 style="text-align: justify;"><a href="https://dotnettutorials.net/lesson/tuples-in-python/"><span style="color: #0000ff;"><strong><span style="font-family: arial, helvetica, sans-serif;">CHAPTER 13: Tuples</span></strong></span></a></h6>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; What is the tuple data structure?</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Different ways to create a tuple.</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Accessing elements of the tuple</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Tuple vs immutability</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Important functions and methods of Tuple:</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Tuple packing</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Tuple unpacking:</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Tuple comprehensions</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Differences between List and Tuple</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Programs</span></p>
+<h6 style="text-align: justify;"><a href="https://dotnettutorials.net/lesson/sets-in-python/"><span style="color: #0000ff;"><strong><span style="font-family: arial, helvetica, sans-serif;">CHAPTER 14: Sets</span></strong></span></a></h6>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; What is the set data structure?</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Creating a set</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Difference between set() function and set class</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Important function and methods of the set</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Mathematical operations on the Set</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Membership operators</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Set Comprehension</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Remove duplicates in list elements</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Frozen set</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Creating a frozen set</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Programs</span></p><div class='code-block code-block-8' style='margin: 8px 0; clear: both;'>
+<div id="ezoic-pub-ad-placeholder-132"></div></div><h6 style="text-align: justify;"><a href="https://dotnettutorials.net/lesson/dictionary-in-python/"><strong><span style="font-family: arial, helvetica, sans-serif; color: #000000;"><span style="color: #0000ff;">CHAPTER 15: Dictionaries</span></span></strong></a></h6>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; What is a dictionary?</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Create dictionary</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Access values by using keys from the dictionary</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Handling errors</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Important functions and methods of dictionary</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Dictionary Comprehension</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Programs</span></p>
+<h6 style="text-align: justify;"><a href="https://dotnettutorials.net/lesson/oops-in-python/"><span style="color: #0000ff;"><strong><span style="font-family: arial, helvetica, sans-serif;">CHAPTER 16: OOPS</span></strong></span></a></h6>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Before OOPS</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; After OOPS</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Features of OOPs</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Class</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; How to define a class</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Object</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Why should we create an object?</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Syntax to create an object</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Calling instance data</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Constructor</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Difference between methods and constructor</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Types of Variables</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Accessing variables</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Instance Variable vs Static Variable</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; cls variable</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; @staticmethod declarator</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Where can we access the local variable</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Types of methods</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; @classmethod decorator</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Programs</span></p>
+<h6 style="text-align: justify;"><span style="color: #0000ff;"><a style="color: #0000ff;" href="https://dotnettutorials.net/lesson/inheritance-in-python/"><strong><span style="font-family: arial, helvetica, sans-serif;">CHAPTER 17: Inheritance</span></strong></a></span></h6>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; What is the inheritance</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Advantage</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Implementation</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Types of Inheritance:</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Scenarios</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Constructors in Inheritance</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Method Resolution Order (MRO)</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; super() function</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Different cases for super() function</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Programs</span></p><div class='code-block code-block-9' style='margin: 8px 0; clear: both;'>
+<div id="ezoic-pub-ad-placeholder-133"></div></div><h6 style="text-align: justify;"><a href="https://dotnettutorials.net/lesson/polymorphism-in-python/"><span style="color: #0000ff;"><strong><span style="font-family: arial, helvetica, sans-serif;">CHAPTER 18: Polymorphism</span></strong></span></a></h6>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; What is Polymorphism</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Duck Typing Philosophy of Python</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Overloading</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Types of Overloading</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Operator Overloading:</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Magic methods</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; List of operators and corresponding magic methods.</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Method Overloading</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; How we can handle overloaded method requirements in Python</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Constructor Overloading</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Constructor with Default Arguments</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Constructor with Variable Number of Arguments</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Method overriding:</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Demo Program for Method overriding</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Constructor overriding</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Programs</span></p>
+<h6 style="text-align: justify;"><span style="color: #0000ff;"><strong><span style="font-family: arial, helvetica, sans-serif;"><a href="https://dotnettutorials.net/lesson/abstract-classes-in-python/"><span style="color: #0000ff;">CHAPTER 19: Abstract classes</span></a><span style="color: #0000ff;"> <a style="color: #0000ff;" href="https://dotnettutorials.net/lesson/interfaces-in-python/">and Interfaces</a></span></span></strong></span></h6>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Introduction</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Implemented method</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Un-implemented method</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Declaration</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Abstract method</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Abstract class</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Abstract class object creation</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Different cases and scenarios</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Interface</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; What is an interface?</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; str (self) method</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Programs</span></p>
+<h6 style="text-align: justify;"><span style="color: #0000ff;"><a style="color: #0000ff;" href="https://dotnettutorials.net/lesson/exception-handling-in-python/"><strong><span style="font-family: arial, helvetica, sans-serif;">CHAPTER 20: Exception Handling</span></strong></a></span></h6>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Syntax Errors</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Programmer responsible</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Runtime Errors</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Normal flow of the execution</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Abnormal flow of the execution</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; What is an Exception?</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Is it really required to handle the exceptions?</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; What is the meaning of exception handling?</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Default Exception Handling in Python:</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Exception hierarchy diagram</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Programmer focus</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; try-except block</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Control flow in try and except</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Cases and scenarios with examples</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Printing exception information</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; finally block</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Control flow about finally block</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Cases and scenarios with examples</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Control flow in try-except-finally</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Nested try-except-finally blocks</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Cases and scenarios with examples</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Various possible combinations of try-except-else-finally</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Types of Exceptions</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Predefined Exceptions</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; User-Defined Exceptions</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Steps to follow to Define and Raise Customized Exceptions</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Programs</span></p><div class='code-block code-block-10' style='margin: 8px 0; clear: both;'>
+<div id="ezoic-pub-ad-placeholder-134"></div></div><h6 style="text-align: justify;"><a href="https://dotnettutorials.net/lesson/files-in-python/"><span style="color: #0000ff;"><strong><span style="font-family: arial, helvetica, sans-serif;">CHAPTER 21: Files</span></strong></span></a></h6>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; What is a file</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Types of Files</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Text files</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Binary Files</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; File modes and their meanings</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Opening a File</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Various properties of File Object</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Writing data to text files</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Reading Character Data from text files</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; The seek() and tell() methods</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Program to print the number of lines, words, and characters present in the given file?</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Working with Binary h data</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Working with CSV files</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Zipping and Unzipping</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; ol Files</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; To create a Zip file</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; To perform unzip operation</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Working with Directories</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Pickling and Unpickling of Objects</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Programs</span></p>
+<h6 style="text-align: justify;"><a href="https://dotnettutorials.net/lesson/regular-expressions-in-python/"><span style="color: #0000ff;"><strong><span style="font-family: arial, helvetica, sans-serif;">CHAPTER 22: Regular Expressions</span></strong></span></a></h6>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; What is Regular expression?</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; The main important application areas of Regular Expressions are</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Character classes</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Predefined Character</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Important functions of re module</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Programs</span></p>
+<h6 style="text-align: justify;"><a href="https://dotnettutorials.net/lesson/logging-module-in-python/"><span style="color: #0000ff;"><strong><span style="font-family: arial, helvetica, sans-serif;">CHAPTER 23: Logging Module</span></strong></span></a></h6>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Why is Logging required?</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; What is Logging</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Advantages of logging</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Logging module</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; How to implement Logging</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Writing Python program exceptions to the log file</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Problems with root logger</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Need of Our own customized logger</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Features</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Advanced logging Module</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Steps for Advanced Logging</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Demo Program for File Handler</span><br />
+<span style="font-family: arial, helvetica, sans-serif; color: #000000;">&#8211; Programs</span></p>
+<p><a href="https://dotnettutorials.net/lesson/multithreading-in-python/"><span style="color: #0000ff;"><strong><span style="font-family: arial, helvetica, sans-serif;">CHAPTER 24: Multithreading</span></strong></span></a></p><div class='code-block code-block-11' style='margin: 8px 0; clear: both;'>
+<div id="ezoic-pub-ad-placeholder-135"></div></div><p><a href="https://dotnettutorials.net/lesson/database-connectivity-in-python/"><span style="color: #0000ff;"><strong><span style="font-family: arial, helvetica, sans-serif;">CHAPTER 25: Database Connectivity in Python</span></strong></span></a></p>
+<h5 style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;"><strong>Prerequisites</strong>:</span></h5>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">There are no prerequisites required to learn Python as we are going to start from the very basics. If you have any experience of any programming languages such as C, Java, C#, then it will be good for you, but it is not mandatory as we are going to explain each concept in detail.</span></p>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;"><strong>Note</strong>: If we missed any topics in this Python Tutorials For Beginners and Professionals Course, then please let us know by giving a comment in the Comment Box and we promise as soon as possible we will publish articles on that topic in this Python Tutorials For Beginners and Professionals course. </span></p>
+<h5 style="text-align: justify;"><strong><span style="font-family: arial, helvetica, sans-serif; color: #000000;">About the Author: </span></strong></h5>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;"><strong>Ruhan Sharief Shaik</strong> is working as a software developer | Freelancer | Python Developer. Please join our <a href="https://t.me/pythonlanguagegroup" target="_blank" rel="noopener"><strong>Telegram Channel</strong></a> to learn more and clear your doubts. Also, join our <a href="https://www.facebook.com/groups/821257252078431" target="_blank" rel="noopener"><strong>Python Facebook</strong> <strong>Group</strong></a> to learn and share your thoughts on Python.</span></p><div class='code-block code-block-12' style='margin: 8px 0; clear: both;'>
+<div id="ezoic-pub-ad-placeholder-136"></div></div><div class="wp-block-llms-course-progress"><div class="llms-progress">
+<div class="progress__indicator">0%</div><div class="llms-progress-bar">
+<div class="progress-bar-complete" data-progress="0%" style="width:0%"></div></div></div></div><div class="wp-block-llms-course-continue-button" style="text-align: center;"></div><div class="llms-meta-info">
+<h3 class="llms-meta-title">
+Course Information	</h3>
+<div class="llms-meta llms-tracks"> <p></p></div><div class="llms-meta llms-categories"> <p></p></div><div class="llms-meta llms-tags"> <p></p></div><section class="llms-instructor-info">
+<h3 class="llms-meta-title">
+Course Instructor	</h3>
+<div class="llms-instructors llms-cols">
+<div class="llms-col-1">
+<div class="llms-author"> <img alt='Dot Net Tutorials' src='https://secure.gravatar.com/avatar/146cec314c43227f075fc58080e0340f?s=100&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/146cec314c43227f075fc58080e0340f?s=200&#038;d=mm&#038;r=g 2x' class='avatar avatar-100 photo' height='100' width='100' loading='lazy' decoding='async'/> <span class="llms-author-info name">Dot Net Tutorials</span> <span class="llms-author-info label">Author</span></div></div></div></section></div><div class="clear"></div><div class="llms-syllabus-wrapper">
+<h3 class="llms-h3 llms-section-title">Python &#8211; Basics</h3>
+<div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/introduction-to-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">1 of 10</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Introduction to Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/python-coding-instructions/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">2 of 10</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Python Coding Instructions</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/naming-conventions-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">3 of 10</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Naming Conventions in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/variables-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">4 of 10</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Variables in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/data-types-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">5 of 10</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Data Types in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/operators-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">6 of 10</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Operators in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/input-and-output-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">7 of 10</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Input and Output in Python </h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/control-flow-statements-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">8 of 10</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Control Flow Statements in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/looping-statements-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">9 of 10</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Looping Statements in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/strings-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">10 of 10</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Strings in Python</h5>
+</section>
+<div class="clear"></div></a></div><h3 class="llms-h3 llms-section-title">Python &#8211; Functions, Modules &#038; Packages</h3>
+<div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/functions-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">1 of 6</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Functions in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/types-of-function-arguments-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">2 of 6</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Types of Function Arguments in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/types-of-variables-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">3 of 6</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Types of Variables in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/recursive-and-lambda-functions-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">4 of 6</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Recursive and Lambda Functions in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/decorators-and-generators-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">5 of 6</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Decorators and Generators in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/modules-and-packages-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">6 of 6</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Modules and Packages in Python</h5>
+</section>
+<div class="clear"></div></a></div><h3 class="llms-h3 llms-section-title">Python &#8211; Data Structure</h3>
+<div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/lists-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">1 of 4</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Lists in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/tuples-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">2 of 4</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Tuples in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/sets-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">3 of 4</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Sets in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/dictionary-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">4 of 4</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Dictionary in Python</h5>
+</section>
+<div class="clear"></div></a></div><h3 class="llms-h3 llms-section-title">Python &#8211;  Object Oriented Programming</h3>
+<div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/oops-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">1 of 12</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">OOPs in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/constructors-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">2 of 12</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Constructors in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/class-variables-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">3 of 12</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Types of Variables in a Class in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/class-methods-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">4 of 12</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Types of Methods in a Class in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/inheritance-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">5 of 12</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Inheritance in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/method-resolution-order-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">6 of 12</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Method Resolution Order (MRO) in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/super-function-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">7 of 12</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Super Function in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/polymorphism-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">8 of 12</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Polymorphism in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/abstract-classes-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">9 of 12</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Abstract classes in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/interfaces-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">10 of 12</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Interfaces in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/gui-programming-with-python-tkinter/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">11 of 12</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">GUI Programming with Python Tkinter</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/data-governance-key-tosuccessful-data-science/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">12 of 12</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Data Governance: Key to Successful Data Science</h5>
+</section>
+<div class="clear"></div></a></div><h3 class="llms-h3 llms-section-title">Python &#8211; Exception Handling &#038; Files</h3>
+<div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/exception-handling-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">1 of 6</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Exception Handling in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/finally-block-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">2 of 6</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Finally Block in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/nested-try-except-finally-blocks-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">3 of 6</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Nested try-except-finally blocks in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/custom-exception-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">4 of 6</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Custom Exception in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/files-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">5 of 6</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Files in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/working-with-binary-files-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">6 of 6</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Working with binary files in Python</h5>
+</section>
+<div class="clear"></div></a></div><h3 class="llms-h3 llms-section-title">Regular Expressions &#038; Logging</h3>
+<div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/regular-expressions-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">1 of 4</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Regular Expressions in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/regular-expression-methods-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">2 of 4</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Regular Expression Methods in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/logging-module-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">3 of 4</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Logging Module in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/customized-logging-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">4 of 4</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Customized Logging in Python</h5>
+</section>
+<div class="clear"></div></a></div><h3 class="llms-h3 llms-section-title">Python &#8211; Multithreading </h3>
+<div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/multithreading-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">1 of 5</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Multithreading in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/methods-of-thread-class-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">2 of 5</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Methods of Thread class in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/daemon-threads-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">3 of 5</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Daemon Threads in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/synchronization-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">4 of 5</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Synchronization in Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/inter-thread-communication-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">5 of 5</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Inter Thread communication in Python</h5>
+</section>
+<div class="clear"></div></a></div><h3 class="llms-h3 llms-section-title">Python &#8211; Database Connectivity</h3>
+<div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/database-connectivity-in-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">1 of 1</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Database Connectivity in Python</h5>
+</section>
+<div class="clear"></div></a></div><h3 class="llms-h3 llms-section-title">Popular Python Books</h3>
+<div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/most-recommended-python-books/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">1 of 2</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Most Recommended Python Books</h5>
+</section>
+<div class="clear"></div></a></div><div class="llms-lesson-preview is-free has-icon">
+<a class="llms-lesson-link" href="https://dotnettutorials.net/lesson/most-recommended-data-structure-and-algorithms-books-using-python/">
+<aside class="llms-extra">
+<span class="llms-lesson-counter">2 of 2</span>
+<span class="llms-icon-free">FREE</span>			</aside>
+<section class="llms-main">
+<h5 class="llms-h5 llms-lesson-title">Most Recommended Data Structure and Algorithms Books using Python</h5>
+</section>
+<div class="clear"></div></a></div><div class="clear"></div></div><div class='code-block code-block-16' style='margin: 8px 0; clear: both;'>
+<div id="ezoic-pub-ad-placeholder-143"></div></div></div></div></article>
+<nav class="navigation post-navigation" aria-label="Posts">
+<h2 class="screen-reader-text">Post navigation</h2>
+<div class="nav-links"><div class="nav-previous"><a href="https://dotnettutorials.net/course/blazor-tuturial/" rel="prev"><span class="ast-left-arrow">&larr;</span> Previous Course</a></div><div class="nav-next"><a href="https://dotnettutorials.net/course/cloud-computing/" rel="next">Next Course <span class="ast-right-arrow">&rarr;</span></a></div></div></nav>
+<div id="comments" class="comments-area">
+<div class="comments-count-wrapper"> <h3 class="comments-title"> 1 thought on &ldquo;Python Tutorials For Beginners and Professionals&rdquo; </h3></div><ol class="ast-comment-list">
+<li class="comment byuser comment-author-info bypostauthor even thread-even depth-1" id="li-comment-3663"> <article id="comment-3663" class="ast-comment"> <div class='ast-comment-avatar-wrap'><img onload="Wpfcll.r(this,true);" src="https://dotnettutorials.net/wp-content/plugins/wp-fastest-cache-premium/pro/images/blank.gif" alt="blank" data-wpfc-original-src='https://secure.gravatar.com/avatar/146cec314c43227f075fc58080e0340f?s=50&#038;d=mm&#038;r=g' data-wpfc-original-srcset='https://secure.gravatar.com/avatar/146cec314c43227f075fc58080e0340f?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' loading='lazy' decoding='async'/></div><div class="ast-comment-data-wrap"> <div class="ast-comment-meta-wrap"> <header class="ast-comment-meta ast-row ast-comment-author vcard capitalize"><div class="ast-comment-cite-wrap ast-col-lg-12"><cite><b class="fn"><a href="https://dotnettutorials.net" class="url" rel="ugc">Dot Net Tutorials</a></b> <span class="ast-highlight-text ast-cmt-post-author"></span></cite></div><div class="ast-comment-time ast-col-lg-12"><span class="timendate"><a href="https://dotnettutorials.net/course/python-tutorials/#comment-3663"><time datetime="2022-09-01T14:58:42+05:30">September 1, 2022 at 2:58 pm</time></a></span></div></header></div><section class="ast-comment-content comment"> <p>Please join our Telegram Channel and Facebook Group to learn more and clear your doubts.</p> <p>Telegram Channel: <a href="https://telegram.me/dotnettutorials" rel="nofollow ugc">https://telegram.me/dotnettutorials</a><br /> Facebook Group: <a href="https://www.facebook.com/groups/501905403704561" rel="nofollow ugc">https://www.facebook.com/groups/501905403704561</a></p> <p>Please Like and Subscribe to our YouTube Channel. Here, we are providing Live Training Videos, Interview Preparation Videos, and Many More.<br /> YouTube Channel: <a href="https://www.youtube.com/c/DotNetTurorials" rel="nofollow ugc">https://www.youtube.com/c/DotNetTurorials</a></p> <div class="ast-comment-edit-reply-wrap"> <span class="ast-reply-link"><a rel='nofollow' class='comment-reply-link' href='#comment-3663' data-commentid="3663" data-postid="7811" data-belowelement="comment-3663" data-respondelement="respond" data-replyto="Reply to Dot Net Tutorials" aria-label='Reply to Dot Net Tutorials'>Reply</a></span></div></section></div></article> 
+</li>
+</ol>
+<div id="respond" class="comment-respond">
+<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/course/python-tutorials/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://dotnettutorials.net/wp-comments-post.php" method="post" id="commentform" class="comment-form"><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> <span class="required-field-message">Required fields are marked <span class="required">*</span></span></p><p class="comment-form-comment"><label for="comment">Comment <span class="required">*</span></label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><div class="ast-comment-formwrap ast-row"><p class="comment-form-author ast-col-xs-12 ast-col-sm-12 ast-col-md-4 ast-col-lg-4"><label for="author" class="screen-reader-text">Name*</label><input id="author" name="author" type="text" value="" placeholder="Name*" size="30" aria-required='true' /></p> <p class="comment-form-email ast-col-xs-12 ast-col-sm-12 ast-col-md-4 ast-col-lg-4"><label for="email" class="screen-reader-text">Email*</label><input id="email" name="email" type="text" value="" placeholder="Email*" size="30" aria-required='true' /></p> <p class="comment-form-url ast-col-xs-12 ast-col-sm-12 ast-col-md-4 ast-col-lg-4"><label for="url"><label for="url" class="screen-reader-text">Website</label><input id="url" name="url" type="text" value="" placeholder="Website" size="30" /></label></p></div><p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='7811' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p></form></div></div></main></div></div></div><footer class="site-footer" id="colophon" itemtype="https://schema.org/WPFooter" itemscope="itemscope">
+<div class="ast-small-footer footer-sml-layout-1">
+<div class="ast-footer-overlay">
+<div class="ast-container">
+<div class="ast-small-footer-wrap">
+<div class="ast-small-footer-section ast-small-footer-section-1">
+<div class="footer-primary-navigation"><ul id="menu-social-links-menu" class="nav-menu"><li id="menu-item-2621" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2621"><a href="https://dotnettutorials.net/about-us/">About</a></li> <li id="menu-item-2622" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-2622"><a rel="privacy-policy" href="https://dotnettutorials.net/privacy-policy/">Privacy Policy</a></li> <li id="menu-item-2730" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2730"><a href="https://dotnettutorials.net/contact/">Contact</a></li> <li id="menu-item-9777" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9777"><a href="https://dotnettutorials.net/course/ado-net-tutorial-for-beginners-and-professionals/">ADO.NET Tutorial</a></li> <li id="menu-item-9778" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9778"><a href="https://dotnettutorials.net/course/angular-tutorials/">Angular Tutorials</a></li> <li id="menu-item-9779" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9779"><a href="https://dotnettutorials.net/course/blazor-tuturial/">ASP.NET Core Blazor Tuturials</a></li> <li id="menu-item-9780" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9780"><a href="https://dotnettutorials.net/course/asp-net-core-tutorials/">ASP.NET Core Tutorials</a></li> <li id="menu-item-9781" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9781"><a href="https://dotnettutorials.net/course/asp-dot-net-mvc-tutorials/">ASP.NET MVC Tutorials</a></li> <li id="menu-item-9782" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9782"><a href="https://dotnettutorials.net/course/asp-net-web-api/">ASP.NET Web API Tutorials</a></li> <li id="menu-item-9783" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9783"><a href="https://dotnettutorials.net/course/c-tutorials/">C Tutorials</a></li> <li id="menu-item-9784" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9784"><a href="https://dotnettutorials.net/course/csharp-dot-net-programs/">C#.NET Programs Tutorials</a></li> <li id="menu-item-9785" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9785"><a href="https://dotnettutorials.net/course/csharp-dot-net-tutorials/">C#.NET Tutorials</a></li> <li id="menu-item-9786" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9786"><a href="https://dotnettutorials.net/course/cloud-computing/">Cloud Computing Tutorials</a></li> <li id="menu-item-9787" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9787"><a href="https://dotnettutorials.net/course/data-structures-and-algorithms-for-beginners-and-professionals/">Data Structures and Algorithms Tutorials</a></li> <li id="menu-item-9788" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9788"><a href="https://dotnettutorials.net/course/dot-net-design-patterns/">Design Patterns Tutorials</a></li> <li id="menu-item-9789" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9789"><a href="https://dotnettutorials.net/course/dot-net-interview-questions/">DotNet Interview Questions and Answers</a></li> <li id="menu-item-9900" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9900"><a href="https://dotnettutorials.net/course/java-tutorials-for-beginners-and-professionals/">Core Java Tutorials</a></li> <li id="menu-item-9790" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9790"><a href="https://dotnettutorials.net/course/entity-framework/">Entity Framework Tutorials</a></li> <li id="menu-item-9791" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9791"><a href="https://dotnettutorials.net/course/javascript-tutorial-for-beginners-and-professionals/">JavaScript Tutorials</a></li> <li id="menu-item-9792" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9792"><a href="https://dotnettutorials.net/course/linq/">LINQ Tutorials</a></li> <li id="menu-item-9793" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-9793"><a href="https://dotnettutorials.net/course/python-tutorials/" aria-current="page">Python Tutorials</a></li> <li id="menu-item-9794" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9794"><a href="https://dotnettutorials.net/course/solid-design-principles/">SOLID Principles Tutorials</a></li> <li id="menu-item-9795" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9795"><a href="https://dotnettutorials.net/course/ms-sql-server/">SQL Server Tutorials</a></li> <li id="menu-item-9796" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9796"><a href="https://dotnettutorials.net/course/trading-with-smart-money/">Trading Tutorials</a></li> <li id="menu-item-11534" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11534"><a href="https://dotnettutorials.net/lesson/jdbc-in-java/">JDBC Tutorials</a></li> <li id="menu-item-11535" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11535"><a href="https://dotnettutorials.net/course/java-servlets-tutorials/">Java Servlets Tutorials</a></li> <li id="menu-item-11536" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11536"><a href="https://dotnettutorials.net/course/java-struts-tutorials/">Java Struts Tutorials</a></li> <li id="menu-item-11537" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11537"><a href="https://dotnettutorials.net/course/cpp-tutorials-for-beginners-and-professionals/">C++ Tutorials</a></li> <li id="menu-item-14790" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14790"><a href="https://dotnettutorials.net/course/jsp-tutorials/">JSP Tutorials</a></li> <li id="menu-item-14791" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14791"><a href="https://dotnettutorials.net/course/mysql-tutorials-for-beginners-and-professionals/">MySQL Tutorials</a></li> <li id="menu-item-14792" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14792"><a href="https://dotnettutorials.net/course/oracle-tutorials/">Oracle Tutorials</a></li> <li id="menu-item-14793" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14793"><a href="https://dotnettutorials.net/course/asp-net-core-web-api-tutorials/">ASP.NET Core Web API Tutorials</a></li> <li id="menu-item-20957" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20957"><a href="https://dotnettutorials.net/course/html-tutorials/">HTML Tutorials</a></li> </ul></div></div><div class="ast-small-footer-section ast-small-footer-section-2"> <a href='https://play.google.com/store/apps/details?id=dotnettutorials.net&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target='_blank'><img onload="Wpfcll.r(this,true);" src="https://dotnettutorials.net/wp-content/plugins/wp-fastest-cache-premium/pro/images/blank.gif" alt='Get it on Google Play' data-wpfc-original-src='https://dotnettutorials.net/wp-content/uploads/2019/09/en_badge_web_generic.png'/></a>     © <span class="ast-footer-site-title">Dot Net Tutorials</span> | Website Design by <a href="https://sunrisepixel.com/web-design/dot-net-tutorials/">Sunrise Pixel<a /></div></div></div></div></div></footer></div><script id='wpo_min-footer-0-js-extra'>var astra={"break_point":"921","isRtl":""};
+var themeMyLogin={"action":"","errors":[]};</script>
+<!--[if IE]><script src='//dotnettutorials.net/wp-content/cache/wpfc-minified/2zvl7p6a/hj040.js' id='astra-flexibility-js'></script><![endif]-->
+<!--[if IE]><script id='astra-flexibility-js-after'>flexibility(document.documentElement);</script><![endif]-->
+<script src='//dotnettutorials.net/wp-content/cache/wpfc-minified/k14n5w1u/hj040.js'></script>
+<script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
+<script>window.ezstandalone=window.ezstandalone||{};
+ezstandalone.cmd=ezstandalone.cmd||[];
+ezstandalone.cmd.push(function(){
+ezstandalone.define(101,012,103,104,105,106,107,108,109,110,113,122,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144);
+ezstandalone.enable();
+ezstandalone.display();
+});</script>
+<script id="llms-inline-footer-scripts">window.llms=window.llms||{};window.llms.ajaxurl="https://dotnettutorials.net/wp-admin/admin-ajax.php";window.llms.ajax_nonce="2b789cb5b4";window.llms.tracking='{"nonce":"5c01d5f16a","events":[]}';window.LLMS=window.LLMS||{};window.LLMS.l10n=window.LLMS.l10n||{}; window.LLMS.l10n.strings={"This is a %2$s %1$s String":"This is a %2$s %1$s String","You do not have permission to access this content":"You do not have permission to access this content","There is an issue with your chosen password.":"There is an issue with your chosen password.","Too Short":"Too Short","Very Weak":"Very Weak","Weak":"Weak","Medium":"Medium","Strong":"Strong","Mismatch":"Mismatch","Members Only Pricing":"Members Only Pricing","Are you sure you want to cancel your subscription?":"Are you sure you want to cancel your subscription?","New Lesson":"New Lesson","lessons":"lessons","lesson":"lesson","Section %1$d: %2$s":"Section %1$d: %2$s","Lesson %1$d: %2$s":"Lesson %1$d: %2$s","%1$s Quiz":"%1$s Quiz","questions":"questions","question":"question","New Quiz":"New Quiz","quizzes":"quizzes","quiz":"quiz","New Section":"New Section","sections":"sections","section":"section","General Settings":"General Settings","Video Embed URL":"Video Embed URL","Audio Embed URL":"Audio Embed URL","Free Lesson":"Free Lesson","Require Passing Grade on Quiz":"Require Passing Grade on Quiz","Require Passing Grade on Assignment":"Require Passing Grade on Assignment","Lesson Weight":"Lesson Weight","POINTS":"POINTS","Determines the weight of the lesson when calculating the overall grade of the course.":"Determines the weight of the lesson when calculating the overall grade of the course.","Prerequisite":"Prerequisite","Drip Method":"Drip Method","None":"None","On a specific date":"On a specific date","# of days after course enrollment":"# of days after course enrollment","# of days after course start date":"# of days after course start date","# of days after prerequisite lesson completion":"# of days after prerequisite lesson completion","# of days":"# of days","Date":"Date","Time":"Time","Description":"Description","Passing Percentage":"Passing Percentage","Minimum percentage of total points required to pass the quiz":"Minimum percentage of total points required to pass the quiz","Limit Attempts":"Limit Attempts","Limit the maximum number of times a student can take this quiz":"Limit the maximum number of times a student can take this quiz","Time Limit":"Time Limit","Enforce a maximum number of minutes a student can spend on each attempt":"Enforce a maximum number of minutes a student can spend on each attempt","Show Correct Answers":"Show Correct Answers","When enabled, students will be shown the correct answer to any question they answered incorrectly.":"When enabled, students will be shown the correct answer to any question they answered incorrectly.","Randomize Question Order":"Randomize Question Order","Display questions in a random order for each attempt. Content questions are locked into their defined positions.":"Display questions in a random order for each attempt. Content questions are locked into their defined positions.","Are you sure you want to detach this %s?":"Are you sure you want to detach this %s?","Select an image":"Select an image","Use this image":"Use this image","Are you sure you want to move this %s to the trash?":"Are you sure you want to move this %s to the trash?","%1$s Assignment":"%1$s Assignment","Add Existing Assignment":"Add Existing Assignment","Search for existing assignments...":"Search for existing assignments...","Get Your Students Taking Action":"Get Your Students Taking Action","Get Assignments Now!":"Get Assignments Now!","Unlock LifterLMS Assignments":"Unlock LifterLMS Assignments","Add Existing Lesson":"Add Existing Lesson","Search for existing lessons...":"Search for existing lessons...","Searching...":"Searching...","Attach":"Attach","Clone":"Clone","ID":"ID","Are you sure you want to delete this question?":"Are you sure you want to delete this question?","Add Existing Question":"Add Existing Question","Search for existing questions...":"Search for existing questions...","An error occurred while trying to load the questions. Please refresh the page and try again.":"An error occurred while trying to load the questions. Please refresh the page and try again.","Add Existing Quiz":"Add Existing Quiz","Search for existing quizzes...":"Search for existing quizzes...","Add a Question":"Add a Question","Use SoundCloud or Spotify audio URLS.":"Use SoundCloud or Spotify audio URLS.","Permalink":"Permalink","Use YouTube, Vimeo, or Wistia video URLS.":"Use YouTube, Vimeo, or Wistia video URLS.","Select an Image":"Select an Image","Select Image":"Select Image","An error was encountered generating the export":"An error was encountered generating the export","Select a Course\/Membership":"Select a Course\/Membership","Select a student":"Select a student","Error: %s":"Error: %s","Filter by Student(s)":"Filter by Student(s)","Error":"Error","Request timed out":"Request timed out","Retry":"Retry","There was an error loading the necessary resources. Please try again.":"There was an error loading the necessary resources. Please try again.","After deleting this access plan, any students subscribed to this plan will still have access and will continue to make recurring payments according to the access plan's settings. If you wish to terminate their plans you must do so manually. This action cannot be reversed.":"After deleting this access plan, any students subscribed to this plan will still have access and will continue to make recurring payments according to the access plan&#039;s settings. If you wish to terminate their plans you must do so manually. This action cannot be reversed.","An error was encountered during the save attempt. Please try again.":"An error was encountered during the save attempt. Please try again.","Please select a student to enroll":"Please select a student to enroll","Are you sure you want to delete this row? This cannot be undone.":"Are you sure you want to delete this row? This cannot be undone.","Click okay to enroll all active members into the selected course. Enrollment will take place in the background and you may leave your site after confirmation. This action cannot be undone!":"Click okay to enroll all active members into the selected course. Enrollment will take place in the background and you may leave your site after confirmation. This action cannot be undone!","\"%s\" is already in the course list.":"&quot;%s&quot; is already in the course list.","Remove course":"Remove course","Enroll All Members":"Enroll All Members","Cancel":"Cancel","Refund":"Refund","Record a Manual Payment":"Record a Manual Payment","Copy this code and paste it into the desired area":"Copy this code and paste it into the desired area","View":"View","Remarks to Student":"Remarks to Student","points":"points","Are you sure you wish to quit this quiz attempt?":"Are you sure you wish to quit this quiz attempt?","Grading Quiz...":"Grading Quiz...","Loading Question...":"Loading Question...","An unknown error occurred. Please try again.":"An unknown error occurred. Please try again.","Loading Quiz...":"Loading Quiz...","Time Remaining":"Time Remaining","Next Question":"Next Question","Complete Quiz":"Complete Quiz","Previous Question":"Previous Question","Loading...":"Loading...","You must select an answer to continue.":"You must select an answer to continue."};</script>
+<script defer src='//dotnettutorials.net/wp-content/cache/wpfc-minified/e4av2blf/hj040.js'></script>
+<script>document.addEventListener('DOMContentLoaded',function(){
+/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);});</script>
+<script>(function jqIsReady_493(){if(typeof jQuery==="undefined"){setTimeout(jqIsReady_493, 100);}else{
+jQuery(document).ready(function ($){
+for (let i=0; i < document.forms.length; ++i){
+let form=document.forms[i];
+if($(form).attr("method")!="get"){ $(form).append('<input type="hidden" name="nslxoGOwrJkIiAf" value="Gunh5VBTyYKZ" />'); }
+if($(form).attr("method")!="get"){ $(form).append('<input type="hidden" name="-yUWNDn" value="m6_G3R" />'); }
+if($(form).attr("method")!="get"){ $(form).append('<input type="hidden" name="-LPodyKipzmsuC" value="mOMUuYwX_r" />'); }}
+$(document).on('submit', 'form', function (){
+if($(this).attr("method")!="get"){ $(this).append('<input type="hidden" name="nslxoGOwrJkIiAf" value="Gunh5VBTyYKZ" />'); }
+if($(this).attr("method")!="get"){ $(this).append('<input type="hidden" name="-yUWNDn" value="m6_G3R" />'); }
+if($(this).attr("method")!="get"){ $(this).append('<input type="hidden" name="-LPodyKipzmsuC" value="mOMUuYwX_r" />'); }
+return true;
+});
+jQuery.ajaxSetup({
+beforeSend: function (e, data){
+if(data.type!=='POST') return;
+if(typeof data.data==='object'&&data.data!==null){
+data.data.append("nslxoGOwrJkIiAf", "Gunh5VBTyYKZ");
+data.data.append("-yUWNDn", "m6_G3R");
+data.data.append("-LPodyKipzmsuC", "mOMUuYwX_r");
+}else{
+data.data=data.data + '&nslxoGOwrJkIiAf=Gunh5VBTyYKZ&-yUWNDn=m6_G3R&-LPodyKipzmsuC=mOMUuYwX_r';
+}}
+});
+});}})();</script>
+</body>
+</html><!-- WP Fastest Cache file was created in 0.81436681747437 seconds, on 09-05-23 21:12:36 -->
